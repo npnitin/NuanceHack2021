@@ -1,0 +1,128 @@
+{
+    "transcript-response": {
+        "xmlns": "http://www.touchcommerce.com/2012/real_time_metrics",
+        "engagements": {
+            "engagement": {
+                "owner": "ai_test",
+                "businessRuleID": -1,
+                "in-conference": false,
+                "transferred": false,
+                "requiresAttention": false,
+                "saleQualified": false,
+                "businessRuleName": "EAPI",
+                "maxResponseTime": 41000,
+                "avgResponseTime": 34400,
+                "was-in-conference": false,
+                "durationInCompletedState": 0,
+                "launchPageMarker": "EAPI",
+                "duration": 1119168,
+                "transcript": {
+                    "transcriptLine": [
+                        {
+                            "senderId": -8226280841575705646,
+                            "senderName": "You",
+                            "senderType": "CLIENT_MESSAGE",
+                            "content": "Hi,I need some help",
+                            "sendTime": 1630059318000
+                        },
+                        {
+                            "senderId": "ai_test",
+                            "senderName": "ai_test",
+                            "senderType": "AGENT_JOINS_CHAT",
+                            "content": "Agent 'ai_test' enters chat (as ai_test)",
+                            "sendTime": 1630059318000
+                        },
+                        {
+                            "senderId": "ai_test",
+                            "senderName": "ai_test",
+                            "senderType": "AGENT_MESSAGE",
+                            "content": "Hello, what kind of help you want?",
+                            "sendTime": 1630059351000
+                        },
+                        {
+                            "senderId": -8226280841575705646,
+                            "senderName": "You",
+                            "senderType": "CLIENT_MESSAGE",
+                            "content": "I want to return some items from my order with ID 10020.",
+                            "sendTime": 1630059434000
+                        },
+                        {
+                            "senderId": "ai_test",
+                            "senderName": "ai_test",
+                            "senderType": "AGENT_MESSAGE",
+                            "content": "Sure we will proceed with return.May i know the reason why you are returning the item?",
+                            "sendTime": 1630059475000
+                        },
+                        {
+                            "senderId": -8226280841575705646,
+                            "senderName": "You",
+                            "senderType": "CLIENT_MESSAGE",
+                            "content": "The quality of the item is very bad and material is different than what is mentioned in the descritpion.",
+                            "sendTime": 1630059516000
+                        },
+                        {
+                            "senderId": "ai_test",
+                            "senderName": "ai_test",
+                            "senderType": "AGENT_MESSAGE",
+                            "content": "okay we will proceed with the item return, can you name the item you want to return?",
+                            "sendTime": 1630059557000
+                        },
+                        {
+                            "senderId": -8226280841575705646,
+                            "senderName": "You",
+                            "senderType": "CLIENT_MESSAGE",
+                            "content": "i want to return fastrack watch from my order as its of worst packging",
+                            "sendTime": 1630059608000
+                        },
+                        {
+                            "senderId": "ai_test",
+                            "senderName": "ai_test",
+                            "senderType": "AGENT_MESSAGE",
+                            "content": "okay sure we will send our executive to collect the item and refund will be initiated after that.",
+                            "sendTime": 1630059639000
+                        },
+                        {
+                            "senderId": -8226280841575705646,
+                            "senderName": "You",
+                            "senderType": "CLIENT_MESSAGE",
+                            "content": "This was vey bad experience i had.",
+                            "sendTime": 1630059653000
+                        },
+                        {
+                            "senderId": "ai_test",
+                            "senderName": "ai_test",
+                            "senderType": "AGENT_MESSAGE",
+                            "content": "Thanks for contacting us , we are more than happy to serve out customers.",
+                            "sendTime": 1630059679000
+                        },
+                        {
+                            "senderId": -8226280841575705646,
+                            "senderName": "",
+                            "senderType": "CLIENT_DISCONNECTS",
+                            "content": "Customer connection lost. The customer lost network connectivity",
+                            "sendTime": 1630059991000
+                        }
+                    ]
+                },
+                "participantCount": 1,
+                "id": -8226280841575430859,
+                "initialResponse": 33000,
+                "persistent": false,
+                "waitTime": 758430,
+                "wrapTime": 446372,
+                "agentRefs": {
+                    "agentRef": {
+                        "agentGroupID": "",
+                        "alias": "ai_test",
+                        "fullName": "ai_test ai_test",
+                        "agentBusinessUnits": {
+                            "businessUnit": "TouchCommerce"
+                        },
+                        "id": "ai_test"
+                    }
+                },
+                "currentPageMarker": "EAPI"
+            }
+        }
+    }
+}

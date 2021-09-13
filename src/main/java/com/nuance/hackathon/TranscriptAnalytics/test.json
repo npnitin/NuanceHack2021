@@ -1,0 +1,86 @@
+{
+    "transcript-response": {
+        "xmlns": "http://www.touchcommerce.com/2012/real_time_metrics",
+        "engagements": {
+            "engagement": {
+                "owner": "ai_test",
+                "businessRuleID": -1,
+                "in-conference": false,
+                "transferred": false,
+                "requiresAttention": false,
+                "saleQualified": false,
+                "businessRuleName": "EAPI",
+                "maxResponseTime": 48000,
+                "avgResponseTime": 30000,
+                "was-in-conference": false,
+                "durationInCompletedState": 0,
+                "launchPageMarker": "EAPI",
+                "duration": 113140,
+                "transcript": {
+                    "transcriptLine": [
+                        {
+                            "senderId": -8226280840633230976,
+                            "senderName": "You",
+                            "senderType": "CLIENT_MESSAGE",
+                            "content": "Hi,I wanted to thank you for resolving the issue with my order",
+                            "sendTime": 1630073699000
+                        },
+                        {
+                            "senderId": "ai_test",
+                            "senderName": "ai_test",
+                            "senderType": "AGENT_JOINS_CHAT",
+                            "content": "Agent 'ai_test' enters chat (as ai_test)",
+                            "sendTime": 1630073699000
+                        },
+                        {
+                            "senderId": -8226280840633230976,
+                            "senderName": "You",
+                            "senderType": "CLIENT_MESSAGE",
+                            "content": "Really good service provided by you guys",
+                            "sendTime": 1630073731000
+                        },
+                        {
+                            "senderId": "ai_test",
+                            "senderName": "ai_test",
+                            "senderType": "AGENT_MESSAGE",
+                            "content": "Thats really good to hear from you",
+                            "sendTime": 1630073747000
+                        },
+                        {
+                            "senderId": -8226280840633230976,
+                            "senderName": "You",
+                            "senderType": "CLIENT_MESSAGE",
+                            "content": "I will aslo recommend my frieds to use your platform as it is very easy to use and team is very cooperative",
+                            "sendTime": 1630073757000
+                        },
+                        {
+                            "senderId": "ai_test",
+                            "senderName": "ai_test",
+                            "senderType": "AGENT_MESSAGE",
+                            "content": "Thanks for those good words",
+                            "sendTime": 1630073769000
+                        }
+                    ]
+                },
+                "participantCount": 2,
+                "id": -8226280840632956189,
+                "initialResponse": 48000,
+                "persistent": false,
+                "waitTime": 43306,
+                "wrapTime": 0,
+                "agentRefs": {
+                    "agentRef": {
+                        "agentGroupID": "",
+                        "alias": "ai_test",
+                        "fullName": "ai_test ai_test",
+                        "agentBusinessUnits": {
+                            "businessUnit": "TouchCommerce"
+                        },
+                        "id": "ai_test"
+                    }
+                },
+                "currentPageMarker": "EAPI"
+            }
+        }
+    }
+}
